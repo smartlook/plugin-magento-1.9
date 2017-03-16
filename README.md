@@ -1,4 +1,4 @@
-# Smartlook plugin: PrestaShop
+# Smartlook plugin: Magento
 
 Smartlook Website Visitor Recording Tool
 
