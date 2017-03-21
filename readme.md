@@ -1,10 +1,10 @@
 # Smartlook plugin: Magento
 
-Smartlook Website Visitor Recording Tool
+Smartlook plugin for Magento
 
 ## Versions
 
-* 1.0.0
+* 1.0.0 (Magento 1.9)
 
 ## Copyright
 
