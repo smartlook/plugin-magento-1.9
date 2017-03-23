@@ -1,6 +1,6 @@
 # Smartlook plugin: Magento
 
-Smartlook plugin for Magento
+Plugin for Magento
 
 ## Versions
 
@@ -8,4 +8,4 @@ Smartlook plugin for Magento
 
 ## Copyright
 
-Copyright (c) 2017 [Smartsupp.com](https://www.smartsupp.com/)
+Copyright (c) 2017 [Smartlook.com](https://www.smartlook.com/)
