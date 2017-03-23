@@ -1,6 +1,6 @@
 # Smartlook plugin: Magento
 
-Plugin for Magento
+Plugin for Magento.
 
 ## Versions
 
