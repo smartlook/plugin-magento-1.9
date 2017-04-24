@@ -5,6 +5,7 @@ Plugin for Magento.
 ## Versions
 
 * 1.0.0 (Magento 1.9)
+* 1.0.0 (Magento 2.0)
 
 ## Copyright
 
