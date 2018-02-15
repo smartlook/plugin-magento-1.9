@@ -1,12 +1,7 @@
-# Smartlook plugin: Magento
+# Smartlook plugin - Magento
 
-Plugin for Magento.
-
-## Versions
-
-* 1.0.0 (Magento 1.9)
-* 1.0.0 (Magento 2.0)
+Read the release info and [download](https://github.com/smartlook/smartlook-plugin-magento/releases) plugin files.
 
 ## Copyright
 
-Copyright (c) 2017 [Smartlook.com](https://www.smartlook.com/)
+Copyright (c) 2018 [Smartlook.com](https://www.smartlook.com/)
