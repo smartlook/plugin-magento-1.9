@@ -1,6 +1,6 @@
-# Smartlook plugin - Magento 1.9
+# Smartlook plugin - Magento
 
-Download plugin files in .ZIP above.
+Compatibility: versions 1900 - 1938.
 
 ## Copyright
 
