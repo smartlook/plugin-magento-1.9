@@ -1,4 +1,4 @@
-# Smartlook plugin - Magento
+# Smartlook plugin - Magento 1.9
 
 ## Compatibility
 
