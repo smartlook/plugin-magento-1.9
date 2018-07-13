@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Smartsupp_Smartlook</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl-2.0.txt">GPL-2.0+</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Smartlook integration</summary>
+    <description>Smartlook integration module that adds Smartlook code to Magento.</description>
+    <notes>2016 Smartsupp.com</notes>
+    <authors><author><name>Smartsupp</name><user>vladimir</user><email>vladimir@smartsupp.com</email></author></authors>
+    <date>2016-10-06</date>
+    <time>12:14:09</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Smartsupp_Smartlook.xml" hash="66358791559b770e282ee88de49a240a"/></dir></target><target name="magecommunity"><dir name="Smartsupp"><dir name="Smartlook"><dir name="Block"><dir name="Adminhtml"><dir name="Config"><dir name="Source"><file name="Hint.php" hash="316b66fead3e0796284047f1c691a565"/></dir></dir></dir><file name="Display.php" hash="9b35777a436d64c025858ceb845d7b35"/></dir><dir name="Helper"><file name="Data.php" hash="8e773bf51f7047f76c8050e04d867537"/></dir><dir name="Model"><dir name="Config"><dir name="Source"><file name="ShowHide.php" hash="55dbaa31427f80b115e9d72eb49dc596"/></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="38de20a7585684d2c03e507505e9e7cd"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="2443f9ca71fc96b012dc4f41e15b5edc"/><file name="config.xml" hash="d253d27ae9654a8502ce3b6758d53f57"/><file name="system.xml" hash="6d161ff489021b709037f763b7882d6a"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="smartlook"><file name="widget.phtml" hash="e085d57b2bc16f5846af9e13630ef041"/></dir></dir><dir name="layout"><file name="smartlook.xml" hash="33cff4f4fd2467715ef4e3eb11b2ca41"/></dir></dir></dir></dir></target><target name="magelocale"><dir><dir name="cs_CZ"><file name="Smartsupp_Smartlook.csv" hash="785bf7068fe53a2d3f01b3ebf8194a5c"/></dir><dir name="sk_SK"><file name="Smartsupp_Smartlook.csv" hash="07286d9697f69d0353858a8392c3f541"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

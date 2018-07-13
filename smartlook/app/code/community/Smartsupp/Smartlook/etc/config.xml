@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Smartlook integration module.
+ * 
+ * @package   Smartlook
+ * @author    Smartlook <vladimir@smartsupp.com>
+ * @link      http://www.smartsupp.com
+ * @copyright 2015 Smartsupp.com
+ * @license   GPL-2.0+
+ *
+ * Plugin Name:       Smartlook
+ * Plugin URI:        http://www.getsmartlook.com
+ * Description:       Adds Smartlook code to PrestaShop.
+ * Version:           1.0.0
+ * Author:            Smartsupp
+ * Author URI:        http://www.smartsupp.com
+ * Text Domain:       smartlook
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ */
+-->
+<config>
+    <modules>
+        <Smartsupp_Smartlook>
+            <version>1.0.0</version>
+        </Smartsupp_Smartlook>
+    </modules>
+
+    <default>
+        <smartlook>
+            <variables>
+                <customername>1</customername>
+                <customeremail>1</customeremail>
+            </variables>
+        </smartlook>
+    </default>
+
+    <global>
+        <blocks>
+            <smartlook>
+                <class>Smartsupp_Smartlook_Block</class>
+            </smartlook>
+        </blocks>
+        <helpers>
+            <smartlook>
+                <class>Smartsupp_Smartlook_Helper</class>
+            </smartlook>
+        </helpers>
+        <models>
+            <smartlook>
+                <class>Smartsupp_Smartlook_Model</class>
+            </smartlook>
+        </models>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <smartlook>
+                    <file>smartlook.xml</file>
+                </smartlook>
+            </updates>
+        </layout>
+    </frontend>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <smartlook>
+                    <files>
+                        <default>Smartsupp_Smartlook.csv</default>
+                    </files>
+                </smartlook>
+            </modules>
+        </translate>        
+    </adminhtml>
+
+    <admin>
+       <routers>
+            <smartlook>
+                <use>admin</use>
+                <args>
+                    <module>Smartsupp_Smartlook_Adminhtml</module>
+                    <frontName>smartlook</frontName>
+                </args>
+            </smartlook>
+       </routers>
+    </admin>    
+</config>

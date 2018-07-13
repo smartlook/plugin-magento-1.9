@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Smartlook integration module.
+ * 
+ * @package   Smartlook
+ * @author    Smartlook <vladimir@smartsupp.com>
+ * @link      http://www.smartsupp.com
+ * @copyright 2015 Smartsupp.com
+ * @license   GPL-2.0+
+ *
+ * Plugin Name:       Smartlook
+ * Plugin URI:        http://www.getsmartlook.com
+ * Description:       Adds Smartlook code to PrestaShop.
+ * Version:           1.0.0
+ * Author:            Smartsupp
+ * Author URI:        http://www.smartsupp.com
+ * Text Domain:       smartlook
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ */
+-->
+<config>
+    <tabs>
+        <smartsupp>
+            <label>Smartsupp</label>
+            <sort_order>999</sort_order>
+        </smartsupp>
+    </tabs> 
+    <sections>
+        <smartlook module="smartlook" translate="label">
+            <label>Smartlook</label>
+            <tab>smartsupp</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <hint>
+                    <frontend_model>smartlook/adminhtml_config_source_hint</frontend_model>
+                    <sort_order>0</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                </hint>
+				
+                <settings module="smartlook" translate="label">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled module="smartlook" translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <comment>Enable recording on website.</comment>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <code module="smartlook" translate="label">
+                            <label>Smartlook code</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>20</sort_order>
+                            <comment>Smartlook code assigned to your account.</comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </code>        
+                    </fields>
+                </settings>
+				
+                <variables module="smartlook" translate="label">
+                    <label>Customer info</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>20</sort_order>
+                    <comment>Show info about your customers (name, email, etc.) in Smartlook dashboard, where your agents can see it. You will find customer info in the right panel while recording.</comment>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <customername module="smartlook" translate="label">
+                            <label>Name</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>smartlook/config_source_showhide</source_model>
+                            <sort_order>10</sort_order>
+                            <comment>Shows customer's display name.</comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </customername>
+                        <customeremail module="smartlook" translate="label">
+                            <label>Email</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>smartlook/config_source_showhide</source_model>
+                            <sort_order>20</sort_order>
+                            <comment>Shows customer's email.</comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </customeremail>
+                    </fields>
+                </variables>
+            </groups>
+        </smartlook>
+    </sections>
+</config>
