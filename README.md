@@ -2,7 +2,7 @@
 
 ## Compatibility
 
-Versions: 1.9.0.0 - 1.9.3.8
+Versions: 1.9.0.0 - 1.9.4.2
 
 ## Copyright
 
