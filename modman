@@ -1,0 +1,7 @@
+smartlook/app/code/community/Smartsupp/Smartlook app/code/community/Smartsupp/Smartlook
+smartlook/app/design/frontend/base/default/layout/smartlook.xml app/design/frontend/base/default/layout/smartlook.xml
+smartlook/app/design/frontend/base/default/template/smartlook app/design/frontend/base/default/template/smartlook
+smartlook/app/etc/modules/Smartsupp_Smartlook.xml app/etc/modules/Smartsupp_Smartlook.xml
+smartlook/app/locale/cs_CZ/Smartsupp_Smartlook.csv app/locale/cs_CZ/Smartsupp_Smartlook.csv
+smartlook/app/locale/sk_SK/Smartsupp_Smartlook.csv app/locale/sk_SK/Smartsupp_Smartlook.csv
+smartlook/app/locale/pl_PL/Smartsupp_Smartlook.csv app/locale/pl_PL/Smartsupp_Smartlook.csv
